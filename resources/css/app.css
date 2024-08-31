@@ -1,0 +1,66 @@
+html, body {
+    background-color: #21232A;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3em;
+    padding: 70px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.form-control-file {
+    display: block;
+    margin: 0 auto;
+    padding: 0 4px;
+    margin: 2rem auto;
+    font-size: 0.8em;
+}
+
+.btn-primary {
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    background-color: #ee00ff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #ff00ee;
+}
+
+.btn-disabled {
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
